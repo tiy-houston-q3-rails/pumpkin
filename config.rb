@@ -33,15 +33,15 @@ end
 
 # Required
 set :blog_url, 'http://www.example.com'
-set :blog_name, 'Middleman'
-set :blog_description, 'Makes developing websites simple.'
-set :author_name, 'Middleman'
-set :author_bio, 'Middleman is a static site generator using all the ' \
-                 'shortcuts and tools in modern web development.'
+set :blog_name, 'Pumpkin'
+set :blog_description, 'Errrbody waiting for October 31'
+set :author_name, 'TIY Houston Q3 Rails'
+set :author_bio, 'Hustlin\''
+
 # Optional
-set :author_locaton, nil
-set :author_website, nil
-set :blog_logo, nil
+set :author_locaton, "Houston Texas"
+set :author_website, "http://tiy-houston-q3-rails.github.io/"
+set :blog_logo, "Iron-Yard-Logo.png"
 
 page '/feed.xml', layout: false
 
